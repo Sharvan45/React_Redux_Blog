@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Client",
+    "\\Client\\src",
+    "\\Client\\src\\Blog",
+    "\\Client\\src\\Customer",
+    "\\Client\\src\\functional",
+    "\\Client\\src\\store",
+    "\\Client\\src\\store\\actions",
+    "\\Client\\src\\store\\reducers",
+    "\\Client\\src\\Utils"
+  ],
+  "SelectedNode": "\\Client\\src\\Blog\\post.js",
+  "PreviewInSolutionExplorer": false
+}

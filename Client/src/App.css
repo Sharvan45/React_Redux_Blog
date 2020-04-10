@@ -1,0 +1,99 @@
+
+.FlexProfileDrawer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: -90px;
+    margin-right: 25px;
+}
+
+.FlexColumnProfile > h1 {
+    text-align: center;
+}
+
+FlexProfileDrawerRow {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexRow {
+    display: flex;
+    flex-direction: row
+}
+
+.CardStyles {
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.CommentStyles {
+    opacity: 1;
+    animation-name: fadeIn;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.FadeoutComment {
+    animation-name: fadeOut;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+
+.notification-num-posts {
+    padding-left: 5px;
+}
+
+.notification-num-showpost{
+position: relative;
+padding:5px 9px;
+background-color: red;
+color: #941e1e;
+    bottom: 23px;
+    right: 5px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.pagination {
+    display: flex;
+    padding-left: 0;
+    margin: 22px 0;
+    border-radius: 4px;
+}
+
+    .pagination > li {
+        display: inline;
+    }
