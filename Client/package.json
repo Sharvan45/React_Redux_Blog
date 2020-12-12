@@ -15,7 +15,8 @@
     "react-router": "^5.1.1",
     "react-router-dom": "^5.1.1",
     "react-scripts": "^3.3.0",
-    "redux": "^4.0.4"
+    "redux": "^4.0.4",
+    "lodash":"4.17.19"
   },
   "scripts": {
     "start": "react-scripts start",
